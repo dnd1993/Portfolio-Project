@@ -12,7 +12,7 @@ export const Navbar = () => {
       </Link>
       <ul className="nav-sections">
         {sections.map((section) => (
-          <li className="nav-sections-item">
+          <li key={section.id} className="nav-sections-item">
             <Link to={section.to}>{section.section}</Link>
           </li>
         ))}
