@@ -1,0 +1,23 @@
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: inherit;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem;
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+.nav-sections {
+  display: flex;
+  /* justify-content: flex-end; */
+}
+.nav-sections-item {
+  list-style: none;
+}
+.nav-sections-item:not(:last-child) {
+  padding-right: 4rem;
+}
