@@ -1,5 +1,9 @@
 import React from "react";
 
 export const Learning = () => {
-  return <div>This is a Learning Page</div>;
+  return (
+    <section className="section-learning">
+      <h1>Once a student - always a student</h1>
+    </section>
+  );
 };

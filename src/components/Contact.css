@@ -1,0 +1,14 @@
+.contact-list {
+  margin-top: 5rem;
+  display: grid;
+  place-items: center;
+}
+.contact-list-item {
+  font-size: 1.8rem;
+}
+.contact-list-item:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+.contact-list-item span {
+  margin-right: 0.5rem;
+}

@@ -1,0 +1,10 @@
+.section-projects p {
+  text-align: center;
+  margin-top: 2rem;
+}
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80vw;
+}
