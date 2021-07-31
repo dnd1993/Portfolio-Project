@@ -1,3 +1,9 @@
+.section-projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .section-projects p {
   text-align: center;
   margin-top: 2rem;
@@ -7,4 +13,5 @@
   flex-wrap: wrap;
   justify-content: center;
   width: 80vw;
+  margin-top: 2rem;
 }
