@@ -4,9 +4,9 @@
   align-items: center;
   width: 30%;
   background-color: bisque;
-  margin-right: 1rem;
-  margin-bottom: 1rem;
-  padding-bottom: 1rem;
+  margin: 0 1rem 1rem 0;
+  padding-bottom: 0.7rem;
+  border-radius: 0.5rem;
 }
 
 .project-card:hover .card-front {
@@ -31,11 +31,12 @@
 }
 .card-front img {
   align-self: center;
-  width: 50%;
+  width: 45%;
 }
 
 .card-front h2 {
   text-align: center;
+  margin-top: 0.5rem;
 }
 
 .card-back {

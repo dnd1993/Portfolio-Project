@@ -1,6 +1,7 @@
 import React from "react";
 
 import "./Projects.css";
+import projects from "../projectsData";
 import Card from "./Card";
 
 export const Projects = () => {
@@ -9,12 +10,9 @@ export const Projects = () => {
       <h1>My Projects</h1>
       <p>Small projects I've developed myself or while taking courses</p>
       <div className="projects-container">
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
+        {projects.map((project) => (
+          <Card key={project.id} project={project} />
+        ))}
       </div>
     </section>
   );

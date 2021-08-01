@@ -1,18 +1,21 @@
 import React from "react";
-import doughnut from "../img/doughnut.png";
 
 import "./Card.css";
 
-const Card = () => {
+const Card = ({ project }) => {
+  const { about, background, name, alt, img } = project;
+
   return (
-    <article className="project-card">
+    <article className="project-card" style={{ background: `${background}` }}>
       <div className="card-front">
-        <img src={doughnut} alt="Doughnut Logo" />
-        <h2>Filter Project</h2>
+        <img src={img} alt={alt} />
+        <h2>{name}</h2>
       </div>
       <div className="card-back">
-        <p>Project description</p>
-        <button>Visit Website</button>
+        <p>{about}</p>
+        <button>
+          <a href="https://www.yandex.ru">Visit Website</a>
+        </button>
       </div>
     </article>
   );
