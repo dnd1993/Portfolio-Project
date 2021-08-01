@@ -7,6 +7,7 @@ const projects = [
     background: "#dc9e9a",
     alt: "Doughnut Logo",
     img: "/img/doughnut.png",
+    url: "https://github.com/dnd1993/filter-project",
   },
   {
     id: 2,
@@ -16,6 +17,7 @@ const projects = [
     background: "#f5b7b3",
     alt: "Cocktail Logo",
     img: "/img/cocktail.png",
+    url: "https://github.com/dnd1993/filter-project",
   },
   {
     id: 3,
@@ -25,6 +27,7 @@ const projects = [
     background: "#f7c7c4",
     alt: "9 3/4 logo",
     img: "/img/harry.png",
+    url: "https://github.com/dnd1993/filter-project",
   },
   {
     id: 4,
@@ -34,6 +37,7 @@ const projects = [
     background: "#fad7d5",
     alt: "Groceries logo",
     img: "/img/shop.png",
+    url: "https://github.com/dnd1993/Grocery_list",
   },
   {
     id: 5,
@@ -42,6 +46,7 @@ const projects = [
     background: "#fce7e6",
     alt: "Dollar logo",
     img: "/img/tips.png",
+    url: "https://github.com/dnd1993/filter-project",
   },
   {
     id: 6,
@@ -50,6 +55,7 @@ const projects = [
     background: "#fef7f7",
     alt: "Some logo",
     img: "/img/doughnut.png",
+    url: "https://github.com/dnd1993/filter-project",
   },
 ];
 

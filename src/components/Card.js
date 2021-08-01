@@ -3,7 +3,7 @@ import React from "react";
 import "./Card.css";
 
 const Card = ({ project }) => {
-  const { about, background, name, alt, img } = project;
+  const { about, background, name, alt, img, url } = project;
 
   return (
     <article className="project-card" style={{ background: `${background}` }}>
@@ -14,7 +14,7 @@ const Card = ({ project }) => {
       <div className="card-back">
         <p>{about}</p>
         <button>
-          <a href="https://www.yandex.ru">Visit Website</a>
+          <a href={url}>Visit Website</a>
         </button>
       </div>
     </article>
