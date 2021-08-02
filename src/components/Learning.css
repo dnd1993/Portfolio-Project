@@ -67,3 +67,28 @@
 .courses-list-item:not(:last-child) {
   margin-bottom: 1rem;
 }
+
+@media only screen and (max-width: 800px) {
+  .courses-wrapper {
+    flex-direction: column;
+    width: 65%;
+  }
+  .courses-card {
+    border: none;
+  }
+  .courses-card:not(:last-child) {
+    margin-right: 0;
+  }
+  .section-learning {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .courses-wrapper {
+    flex-direction: column;
+    width: 80%;
+  }
+}

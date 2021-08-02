@@ -35,14 +35,38 @@ a:visited {
 }
 .nav-sections {
   display: flex;
-  /* justify-content: flex-end; */
 }
 .nav-sections-item {
   list-style: none;
 }
 .nav-sections-item:not(:last-child) {
-  padding-right: 4rem;
+  margin-right: 4rem;
 }
 .nav-sections-item a:hover {
   border-bottom: 2px groove rgb(102, 51, 153);
+}
+@media only screen and (max-width: 600px) {
+  .nav-container {
+    flex-direction: column;
+  }
+  .site-logo {
+    width: 4rem;
+    height: 4rem;
+    border: 0.3rem solid #000000;
+    margin-bottom: 1.5rem;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .nav-sections-item:not(:last-child) {
+    margin-right: 2.5rem;
+  }
+}
+@media only screen and (max-width: 460px) {
+  .nav-sections {
+    flex-flow: column;
+    align-self: baseline;
+  }
+  .nav-sections-item:not(:last-child) {
+    margin-bottom: 1rem;
+  }
 }

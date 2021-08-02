@@ -17,7 +17,7 @@ const projects = [
     background: "#f5b7b3",
     alt: "Cocktail Logo",
     img: "/img/cocktail.png",
-    url: "https://github.com/dnd1993/filter-project",
+    url: "https://github.com/dnd1993/cocktails",
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ const projects = [
     background: "#f7c7c4",
     alt: "9 3/4 logo",
     img: "/img/harry.png",
-    url: "https://github.com/dnd1993/filter-project",
+    url: "https://github.com/dnd1993/HP-Quiz",
   },
   {
     id: 4,
@@ -46,7 +46,7 @@ const projects = [
     background: "#fce7e6",
     alt: "Dollar logo",
     img: "/img/tips.png",
-    url: "https://github.com/dnd1993/filter-project",
+    url: "https://github.com/dnd1993/calculate-tips",
   },
   {
     id: 6,
