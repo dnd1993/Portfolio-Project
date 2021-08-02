@@ -14,7 +14,9 @@ const Card = ({ project }) => {
       <div className="card-back">
         <p>{about}</p>
         <button>
-          <a href={url}>Visit Website</a>
+          <a href={url} target="_blank" rel="noopener noreferrer">
+            Visit Website
+          </a>
         </button>
       </div>
     </article>

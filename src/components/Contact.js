@@ -24,8 +24,24 @@ export const Contact = () => {
             <span>
               <i className="fab fa-linkedin"></i>
             </span>
-            <a href="https://www.linkedin.com/in/yananazarenkoca">
+            <a
+              href="https://www.linkedin.com/in/yananazarenkoca"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Profile in Linkedin
+            </a>
+          </li>
+          <li className="contact-list-item">
+            <span>
+              <i className="fab fa-facebook"></i>
+            </span>
+            <a
+              href="https://www.facebook.com/yana.nazarenko.524"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Facebook Page
             </a>
           </li>
         </ul>

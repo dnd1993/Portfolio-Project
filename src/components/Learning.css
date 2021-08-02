@@ -23,39 +23,39 @@
 }
 
 .past {
-  border-color: rgb(20, 158, 20);
+  border-color: #303581;
 }
 
 .past h2 {
-  color: rgb(20, 158, 20);
+  color: #303581;
 }
 
 .past li {
-  background-color: rgb(20, 158, 20);
+  background-color: #303581;
 }
 
 .present {
-  border-color: rgb(34, 32, 180);
+  border-color: #4b53be;
 }
 
 .present h2 {
-  color: rgb(34, 32, 180);
+  color: #4b53be;
 }
 
 .present li {
-  background-color: rgb(34, 32, 180);
+  background-color: #4b53be;
 }
 
 .future {
-  border-color: rgb(238, 136, 87);
+  border-color: #ad2a5a;
 }
 
 .future h2 {
-  color: rgb(238, 136, 87);
+  color: #ad2a5a;
 }
 
 .future li {
-  background-color: rgb(238, 136, 87);
+  background-color: #ad2a5a;
 }
 
 .courses-list-item {
