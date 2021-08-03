@@ -1,5 +1,7 @@
 import React from "react";
 
 export const Error = () => {
-  return <div>This page doesn't exist</div>;
+  return (
+    <p>This page doesn't exist. Please choose one of the sections above.</p>
+  );
 };

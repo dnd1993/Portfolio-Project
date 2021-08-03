@@ -2,7 +2,7 @@ const projects = [
   {
     id: 1,
     name: "Portfolio Project",
-    about: "SPA (React Router). Responsive Design. CSS animation.",
+    about: "Single-page App (React Router). Responsive Design. CSS animation.",
     background: "#eac8c6",
     alt: "Portfolio logo",
     img: "/img/portfolio.png",
@@ -12,7 +12,7 @@ const projects = [
     id: 2,
     name: "Cocktails Project",
     about:
-      "Fetching Data, searching for products. Single-page app (React hooks)",
+      "Fetching Data, searching for products. Single-page app. React hooks",
     background: "#eccecc",
     alt: "Cocktail Logo",
     img: "/img/cocktail.png",
