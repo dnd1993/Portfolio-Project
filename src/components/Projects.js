@@ -10,7 +10,15 @@ export const Projects = () => {
       <h1>My Projects</h1>
       <p>
         Small projects I've developed based on my ideas or courses I've taken.
-        Currently working on a large-scale project.
+        Here is my{" "}
+        <a
+          href="https://codepen.io/yananazarenko"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          CodePen
+        </a>{" "}
+        with more works.
       </p>
       <div className="projects-container">
         {projects.map((project) => (

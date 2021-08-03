@@ -8,6 +8,9 @@
   text-align: center;
   margin-top: 2rem;
 }
+.section-projects p a {
+  font-weight: 700;
+}
 .projects-container {
   display: flex;
   flex-wrap: wrap;
