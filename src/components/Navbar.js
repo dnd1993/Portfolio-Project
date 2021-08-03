@@ -8,7 +8,7 @@ export const Navbar = () => {
   return (
     <nav className="nav-container">
       <Link to="/" className="site-logo">
-        <span className="logo-text">NY</span>
+        <span className="logo-text">YN</span>
       </Link>
       <ul className="nav-sections">
         {sections.map((section) => (
