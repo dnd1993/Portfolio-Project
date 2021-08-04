@@ -25,8 +25,9 @@ export const Home = () => {
             enjoy to the full extent.
           </p>
           <p>
-            When I don't teach or study, I like doing sports, playing chess,
-            hiking (as you can see on a photo above) and meeting new people.
+            When I don't teach or study, I enjoy games of chess, playing sports
+            and hiking (as you can see in the photo above) and meeting new
+            people.
           </p>
         </article>
       </section>
